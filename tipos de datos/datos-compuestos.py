@@ -13,12 +13,12 @@ lista[3] = "Maquinola"
 #tupla[3] = "Maquinola"
 
 #creando un conjunto (set), (no se puede acceder a cada uno de los elementos por un indice, no almacena datos duplicados)
-
+#podemos eliminar elementos pero no agregarlos
 conjunto = {"Lorenzo Albornoz", "Lolo", True, 1.72}
 
 #print(conjunto[3]) -> no puede acceder al elemento
 
-#creando un diccionario (dict) seria como el json de js, se accede a cada elemento por su nombre
+#creando un diccionario (dict) seria como el json de js, se accede a cada elemento por su clave o llave
 diccionario = {
     'nombre': 'Lorenzo',
     'apellido': 'Albornoz',

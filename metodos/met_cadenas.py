@@ -1,6 +1,6 @@
 #Los metodos son funciones aplicadas a objetos
 
-cadena1 = "Hola soy Lorenzo"
+cadena1 = "Hola,soy,Lorenzo"
 cadena2= "Bienvenido!"
 
 #DIR - Devuelve la lista de atributos válidos del objeto pasado. Es una funcion, no un metodo
@@ -35,10 +35,10 @@ resultado6 = cadena1.count("o")
 resultado7 = len(cadena1)
 
 #ENDSWITH - Verifica si una cadena comienza con
-resultado8 = cadena1.endswith("o")
+resultado8 = cadena1.startswith("H")
 
 #STARTSWITH - Verifica si una cadena termina con
-resultado9 = cadena1.startswith("H")
+resultado9 = cadena1.endswith("o")
 
 #REPLACE - Remplaza un valor de la cadena dada por otro
 resultado10 = cadena1.replace("la", "lu")
