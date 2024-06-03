@@ -22,6 +22,7 @@ conjunto = {"Lorenzo Albornoz", "Lolo", True, 1.72}
 diccionario = {
     'nombre': 'Lorenzo',
     'apellido': 'Albornoz',
+    'esta:emocionado': True,
     'edad': 29,
     'talla': 1.72
 }

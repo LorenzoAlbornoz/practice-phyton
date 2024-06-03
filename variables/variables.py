@@ -19,6 +19,8 @@ bienvenida = f"Hola {nombre} ¿Como estas?"
 # del elimina datos alojados en la memoria
 del nombre
 
+print(bienvenida)
+
 # operadores de pertenencia (in / not in)
 print ("Hola" in bienvenida) #True
 
